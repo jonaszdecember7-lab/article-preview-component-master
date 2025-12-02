@@ -211,10 +211,14 @@ time {
     align-items: center;
     justify-content: flex-start;
   }
-
+  .share-menu.hidden {
+    display: none;
+  }
 .share-menu::after {
     display: none;
-    
+}
+.author {
+    padding-left: 15px;
 }
 .share-button {
   position: relative;
